@@ -20,7 +20,7 @@ import Registerr from './page/Registerr';
 function App() {
   return (
     <CartProvider>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <div className="App">
           <Routes>
             <Route path="/" element={<Home />} />
